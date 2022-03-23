@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            table,tr,td {
+                border: 2px solid #bfd3dd;
+                border-collapse: collapse;
+                padding: 20px;
+                text-align: left;
+                size: 60px;
+            }
+            .btn {
+                color: black;
+                background-color: #bfd3dd;
+                font-size: 120%;
+            }
+            .btn2 {
+                color: black;
+                background-color: #95b8ce;
+                font-size: 120%;
+            }
+            .a {
+                background-color: #a9c7d8;
+                text-align: left;
+                width: 200px;
+            }
+            .b {
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body style="background-color: #d8e3e7;">
+        <h3 style="text-align: left;">＊為必填項目</h3>
+        <h1 style="text-align: center;">貓咪資料</h1>
+        <form action="" method="post">
+            <table class="b">
+                <tr>
+                    <td class="a">
+                        <label for="cat">貓咪名*</label>
+                    </td>
+                    <td>
+                        <input type="text" name="" id="cat" class="b">       
+                    </td>
+                </tr>
+                <tr>
+                    <td class="a">
+                        <label for="age">年齡*</label>
+                    </td>
+                    <td>
+                        <select name="" id="age">
+                            <option value="1">請選擇</option>
+                            <option value="2">未滿1歲</option>
+                            <option value="3">1 ~ 5歲</option>
+                            <option value="4">6 ~ 10歲</option>
+                            <option value="5">11 ~ 15歲</option>
+                            <option value="6">16 ~ 20歲</option>
+                            <option value="7">20歲以上</option>
+                            <option value="8">不明</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="a">
+                        <label for="sexual">性別*</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="sexual" id="boy">男生
+                        <input type="radio" name="sexual" id="girl">女生
+                    </td>
+                </tr>
+                <tr>
+                    <td class="a">
+                        <label for="dep">最愛的食物</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="" id="">魚
+                        <input type="checkbox" name="" id="">肉
+                        <input type="checkbox" name="" id="">乾飼料
+                        <input type="checkbox" name="" id="">貓罐頭
+                        <input type="checkbox" name="" id="">肉泥
+                        <input type="checkbox" name="" id="">其他
+                    </td>
+                </tr>
+                <tr>
+                    <td class="a">
+                        <label for="dep">照片*</label>
+                    </td>
+                    <td>
+                        <input type="file" name="" id="">
+                    </td>
+                </tr>
+            </table>
+            <h1 style="text-align: center;">飼主資料</h1>
+            <table class="b">
+                <tr>
+                    <td class="a">
+                        <label for="master">飼主名*</label>
+                    </td>
+                    <td>
+                        <input type="text" name="" id="" class="b">       
+                    </td>
+                </tr>
+                <tr>
+                    <td class="a">
+                        <label for="email">E-Mail*</label>
+                    </td>
+                    <td>
+                        <input type="text" name="" id="school" class="b">       
+                    </td>
+                </tr>
+                <tr>
+                    <td class="a">
+                        <label for="mess">留言</label>
+                    </td>
+                    <td>
+                        <textarea name="" id="" cols="0" rows="6" class="b"></textarea>
+                    </td>
+                </tr>
+            </table>
+            <p></p>
+            <div style="text-align: center;">
+            <button class="btn" >清除重填</button>
+            <button class="btn2" >確定送出</button>
+            </div>
+        </form>
+    </body>
+</html>
